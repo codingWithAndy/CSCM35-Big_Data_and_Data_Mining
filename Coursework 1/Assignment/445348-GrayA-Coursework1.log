@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.5)  13 MAR 2020 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  20 MAR 2020 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,21 +910,8 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 (./Chapters/Introduction.tex) (./Chapters/Methodology.tex)
 (./Chapters/Results.tex) (./Chapters/Discussion.tex) (./Chapters/Conclusion.tex
 )
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 \bibliography
-                  {citations}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-[1
+ [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
@@ -934,15 +921,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 67.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                445348-GrayA-Coursework1
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to '445348-GrayA-Coursework1.run.xml'.
 \openout1 = `445348-GrayA-Coursework1.run.xml'.
@@ -950,8 +929,8 @@ Package logreq Info: Writing requests to '445348-GrayA-Coursework1.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  18472 strings out of 492616
- 296885 string characters out of 6129481
- 747117 words of memory out of 5000000
+ 296885 string characters out of 6129480
+ 747071 words of memory out of 5000000
  22130 multiletter control sequences out of 15000+600000
  35426 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -962,7 +941,7 @@ texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 ist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
 ype1/public/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
 /lm/lmr17.pfb>
-Output written on 445348-GrayA-Coursework1.pdf (1 page, 128624 bytes).
+Output written on 445348-GrayA-Coursework1.pdf (1 page, 128614 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
