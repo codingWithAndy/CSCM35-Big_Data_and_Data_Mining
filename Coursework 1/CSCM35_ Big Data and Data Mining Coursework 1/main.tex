@@ -33,8 +33,11 @@ The first algorithm that we used is one that is from the frequent itemset mining
 
 The Apriori property has a two-step process which involves the join and prunes step. For this explanation, $F_k$ represents the $k$-itemset where $L_k$ represents the candidate for the $k$-itemset. The process of joining is to generate a new itemset, $L_{k+1}$, from the $F_K$ itemset. While the pruning stage aims to identify the itemsets in $L_{k+1}$ that are infrequent from $k$, and then remove them \cite{jingjingslides}. What indicates if the item is infrequent depends on the support count, which is predefined beforehand. Therefore what the algorithm does, is: Let us assume that $k=1$ and a support count of 2, we generate a frequent itemset, at first 1, which we will refer to as $F_1$. What this is doing is scanning the dataset to figure out the count of each occurrence of each item. The next step is the merge, or join, the datasets. Using $F_k$ we can then create $L_{k+1}$. We then prune the data based on the support count eliminating any data that is infrequent, therefore leaving any data that is classed as frequent, adding it to $F_{k+1}$. This process is repeated until $F_k$ is empty \cite{jingjingslides, han2011data}.
 
+The second algorithm that we have used is called the association rule. Rakesh Agrawal, Tomasz Imieli{\'n}ski and Arun Swami developed the algorithm in 1993 \cite{agrawal1993mining}. The association rule algorithm is an unsupervised machine learning algorithm \cite{geron2019hands}. What this algorithm focuses around is the support of the datasets' items and the confidence of the association. The math formula for the support is $support(A \Rightarrow B) = P(A \cup B)$, and the math formula for the confidence is $confidence(A \Rightarrow B) = P(B|A)$. [Is this similar to the Naive Bayes formula? -> check out] Similar to the apriori, the support count will drop any relationships that do not meet the desired count. The formula to figure out if the relationships meet the support count is $confidence(A \Rightarrow B) = P(B|A) = \frac{support(A \cup B)}{support(A)} = \frac{support\_count(A \cup B)}{support\_count(A)}$ \cite{jingjingslides, han2011data}.  
+
+
 Apriori, Assossiation rule -> Unsupervised Machine Learning \cite{geron2019hands} 
-(https://www.datarobot.com/wiki/unsupervised-machine-learning/)
+\newline (https://www.datarobot.com/wiki/unsupervised-machine-learning/)
 
 \subsection{Dataset and Data Preprocessing}
 
@@ -45,6 +48,8 @@ The purpose of data preprocessing is to convert any raw data into a format that 
 The dataset had values missing in a number of the columns. The rows that had any missing values, within the features, were removed from the dataset. Also, any rows that had data that was an outlier, within its features, was removed from the dataset. These outliers included minus values. Once we had carried out these data cleaning actions, we then have 396,371 records remaining. The cleaning process indicates that we had removed a total of 145,539 records from the dataset. 
 
 Data transformation. -> takes raw values and puts it into boolean values it needs for the apriori.
+
+$support(A \Rightarrow B) = P(A \cup B)$
 
 \subsection{Packages Used}
 

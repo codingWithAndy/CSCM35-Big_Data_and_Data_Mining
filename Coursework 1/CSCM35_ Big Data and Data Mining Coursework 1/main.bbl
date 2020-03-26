@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{agrawal1993mining}
+{\sc Agrawal, R., Imieli{\'n}ski, T., and Swami, A.}
+\newblock Mining association rules between sets of items in large databases.
+\newblock In {\em Proceedings of the 1993 ACM SIGMOD international conference
+  on Management of data\/} (1993), pp.~207--216.
+
 \bibitem{agrawal1994fast}
 {\sc Agrawal, R., Srikant, R., et~al.}
 \newblock Fast algorithms for mining association rules.
