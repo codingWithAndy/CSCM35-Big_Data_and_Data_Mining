@@ -1,0 +1,75 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+%Includes "References" in the table of contents
+\usepackage[nottoc]{tocbibind}
+\usepackage{titling}
+
+\setlength{\droptitle}{-10em}
+
+%Begining of the document
+\begin{document}
+
+\title{\textbf{CSCM35: Big Data and Data Mining \\Coursework 1}}
+\date{09/04/20}
+\author{Andy Gray\\445348}
+
+\maketitle
+
+\section{Introduction}
+
+We have a practical task assigned to us, that is related to the field of data mining. This task aims to use the association rule, a rule-based machine learning technique, to discover interesting relationships within the provided large dataset. We will be creating to code process the data, as well as analysing the results to see if any insights can be gains and possible reasons to why these might be the case. Throughout this paper we will be explaining our understanding of the problems related to mining data for common patterns while performing visualisations and statistical analysis, as well as applying the association rule mining algorithm on the data, to be able to analyse the outcomes.
+
+Data mining is a necessary part of obtaining knowledge through discovery in databases (KDD). KDD is the term used for the overall process, that involves turning the raw data into useful information. Data mining tasks split into two main categories. These are predictive and descriptive tasks. However, these two main categories split further into four core mining task. These four tasks are cluster analysis, predictive modelling, anomaly detection and association analysis \cite{tan2016introduction}. We will be focusing on the association analysis within this paper.
+
+[Needs expanding]
+
+\section{Methodology}
+
+\subsection{Algorithms Used Explanation}
+
+The first algorithm that we used is one that is from the frequent itemset mining methods, called Apriori \cite{han2011data}. Apriori is an unsupervised learning machine learning algorithm proposed by R. Agrawal and R. Srikant in 1994 \cite{agrawal1994fast, geron2019hands}. The algorithm focuses on using boolean association rules \cite{agrawal1994fast} from using prior knowledge of itemsets that contain the frequent properties. Apriori uses a level-wise search, which operates an iterative approach, where $k$-itemsets get used for exploring $(k+1)$-itemsets \cite{jingjingslides}. In order to improve efficiency, which will reduce the search space, an important characteristic called the Apriori property needs to be applied \cite{han2011data}. 
+
+The Apriori property has a two-step process which involves the join and prunes step. For this explanation, $F_k$ represents the $k$-itemset where $L_k$ represents the candidate for the $k$-itemset. The process of joining is to generate a new itemset, $L_{k+1}$, from the $F_K$ itemset. While the pruning stage aims to identify the itemsets in $L_{k+1}$ that are infrequent from $k$, and then remove them \cite{jingjingslides}. What indicates if the item is infrequent depends on the support count, which is predefined beforehand. Therefore what the algorithm does, is: Let us assume that $k=1$ and a support count of 2, we generate a frequent itemset, at first 1, which we will refer to as $F_1$. What this is doing is scanning the dataset to figure out the count of each occurrence of each item. The next step is the merge, or join, the datasets. Using $F_k$ we can then create $L_{k+1}$. We then prune the data based on the support count eliminating any data that is infrequent, therefore leaving any data that is classed as frequent, adding it to $F_{k+1}$. This process is repeated until $F_k$ is empty \cite{jingjingslides, han2011data}.
+
+Apriori, Assossiation rule -> Unsupervised Machine Learning \cite{geron2019hands} 
+(https://www.datarobot.com/wiki/unsupervised-machine-learning/)
+
+\subsection{Dataset and Data Preprocessing}
+
+The dataset that has we have acquired is a shopping dataset. It is 44MB in size and is in the format of CSV. There are eight attributes, within the dataset, with 541,910 records. The attributes are InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerId, Country.
+
+The purpose of data preprocessing is to convert any raw data into a format that is appropriate for the following analysis of the data. Preprocessing can involve fusing data from several sources, as well as cleaning the raw data to remove any noise, duplicate observations or ambiguity \cite{tan2016introduction}. The main aim of the preprocessing is to get data that is accurate, complete and consistent, but in the real world, we will usually get inaccurate, incomplete and inconsistent data \cite{han2011data}. The preprocessing stage can also involve just selecting the essential records and features that are desired and are relevant to the set data mining task \cite{tan2016introduction}. We can now see that the main aim of data processing is to clean the data, we achieve this through filling in missing values, identifying or removing outliers, smoothing noisy data, and resolving and data inconsistencies \cite{han2011data}.
+
+The dataset had values missing in a number of the columns. The rows that had any missing values, within the features, were removed from the dataset. Also, any rows that had data that was an outlier, within its features, was removed from the dataset. These outliers included minus values. Once we had carried out these data cleaning actions, we then have 396,371 records remaining. The cleaning process indicates that we had removed a total of 145,539 records from the dataset. 
+
+Data transformation. -> takes raw values and puts it into boolean values it needs for the apriori.
+
+\subsection{Packages Used}
+
+Python\cite{Python} MLXtend\cite{raschkas_2018_mlxtend}, Matplotlib \cite{hunter2007matplotlib}, SK Learn\cite{scikit-learn, sklearn_api}
+
+
+
+\subsection{Parameters}
+
+\section{Results}
+
+
+\section{Discussion}
+
+
+
+\section{Conclusion}
+
+
+
+\medskip
+\newpage
+%Sets the bibliography style to UNSRT and imports the 
+%bibliography file "samples.bib".
+\bibliographystyle{acm}
+\bibliography{samples}
+
+\end{document}
