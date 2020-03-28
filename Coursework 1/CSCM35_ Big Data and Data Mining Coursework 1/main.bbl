@@ -12,6 +12,13 @@
 \newblock In {\em Proc. 20th int. conf. very large data bases, VLDB\/} (1994),
   vol.~1215, pp.~487--499.
 
+\bibitem{brin1997dynamic}
+{\sc Brin, S., Motwani, R., Ullman, J.~D., and Tsur, S.}
+\newblock Dynamic itemset counting and implication rules for market basket
+  data.
+\newblock In {\em Proceedings of the 1997 ACM SIGMOD international conference
+  on Management of data\/} (1997), pp.~255--264.
+
 \bibitem{sklearn_api}
 {\sc Buitinck, L., Louppe, G., Blondel, M., Pedregosa, F., Mueller, A., Grisel,
   O., Niculae, V., Prettenhofer, P., Gramfort, A., Grobler, J., Layton, R.,
