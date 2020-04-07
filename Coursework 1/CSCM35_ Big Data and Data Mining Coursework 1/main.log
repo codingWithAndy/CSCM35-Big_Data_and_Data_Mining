@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  2 APR 2020 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  7 APR 2020 12:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,40 +180,108 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
 
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4]
-<totalcount.png, id=23, 640.3925pt x 498.86375pt>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 49.
+
+[2] [3] [4] [5]
+<totalcount.png, id=26, 640.3925pt x 498.86375pt>
 File: totalcount.png Graphic file (type png)
 <use totalcount.png>
-Package pdftex.def Info: totalcount.png  used on input line 87.
+Package pdftex.def Info: totalcount.png  used on input line 104.
 (pdftex.def)             Requested size: 320.19547pt x 249.43126pt.
-<wholelift.png, id=25, 1724.4425pt x 385.44pt>
+<wholelift.png, id=28, 1724.4425pt x 385.44pt>
 File: wholelift.png Graphic file (type png)
 <use wholelift.png>
-Package pdftex.def Info: wholelift.png  used on input line 91.
+Package pdftex.def Info: wholelift.png  used on input line 108.
 (pdftex.def)             Requested size: 344.88239pt x 77.08662pt.
-<wholeconf.png, id=26, 1723.43875pt x 389.455pt>
+<wholeconf.png, id=29, 1723.43875pt x 389.455pt>
 File: wholeconf.png Graphic file (type png)
 <use wholeconf.png>
-Package pdftex.def Info: wholeconf.png  used on input line 95.
+Package pdftex.def Info: wholeconf.png  used on input line 112.
 (pdftex.def)             Requested size: 344.68164pt x 77.88962pt.
- [5 <./totalcount.png> <./wholelift.png>] [6 <./wholeconf.png>]
-(./main.bbl) [7] (./main.aux) ) 
+<uklift.png, id=30, 1721.43124pt x 377.41pt>
+File: uklift.png Graphic file (type png)
+<use uklift.png>
+Package pdftex.def Info: uklift.png  used on input line 117.
+(pdftex.def)             Requested size: 344.28015pt x 75.48065pt.
+ [6 <./totalcount.png> <./wholelift.png> <./wholeconf.png>]
+<ukconf.png, id=37, 1738.495pt x 381.425pt>
+File: ukconf.png Graphic file (type png)
+<use ukconf.png>
+Package pdftex.def Info: ukconf.png  used on input line 121.
+(pdftex.def)             Requested size: 347.69284pt x 76.28365pt.
+
+Overfull \hbox (2.69284pt too wide) in paragraph at lines 121--122
+[] 
+ []
+
+<germanylift.png, id=38, 1710.39pt x 383.4325pt>
+File: germanylift.png Graphic file (type png)
+<use germanylift.png>
+Package pdftex.def Info: germanylift.png  used on input line 125.
+(pdftex.def)             Requested size: 342.07195pt x 76.68513pt.
+<germanyconf.png, id=39, 1517.67pt x 368.37625pt>
+File: germanyconf.png Graphic file (type png)
+<use germanyconf.png>
+Package pdftex.def Info: germanyconf.png  used on input line 129.
+(pdftex.def)             Requested size: 303.52863pt x 73.67393pt.
+<francelift.png, id=40, 2212.265pt x 376.40625pt>
+File: francelift.png Graphic file (type png)
+<use francelift.png>
+Package pdftex.def Info: francelift.png  used on input line 133.
+(pdftex.def)             Requested size: 442.44516pt x 75.2799pt.
+
+Overfull \hbox (97.44516pt too wide) in paragraph at lines 133--134
+[] 
+ []
+
+[7 <./uklift.png> <./ukconf.png> <./germanylift.png> <./germanyconf.png>]
+<franceconf.png, id=49, 2159.06625pt x 381.425pt>
+File: franceconf.png Graphic file (type png)
+<use franceconf.png>
+Package pdftex.def Info: franceconf.png  used on input line 137.
+(pdftex.def)             Requested size: 431.8056pt x 76.28365pt.
+
+Overfull \hbox (86.8056pt too wide) in paragraph at lines 137--138
+[] 
+ []
+
+<eirelift.png, id=50, 2415.0225pt x 359.3425pt>
+File: eirelift.png Graphic file (type png)
+<use eirelift.png>
+Package pdftex.def Info: eirelift.png  used on input line 141.
+(pdftex.def)             Requested size: 458.85905pt x 68.27577pt.
+
+Overfull \hbox (113.85905pt too wide) in paragraph at lines 141--142
+[] 
+ []
+
+<eireconf.png, id=51, 2424.05624pt x 396.48125pt>
+File: eireconf.png Graphic file (type png)
+<use eireconf.png>
+Package pdftex.def Info: eireconf.png  used on input line 145.
+(pdftex.def)             Requested size: 460.57549pt x 75.33221pt.
+
+Overfull \hbox (115.57549pt too wide) in paragraph at lines 145--146
+[] 
+ []
+
+[8 <./francelift.png> <./franceconf.png> <./eirelift.png> <./eireconf.png>]
+(./main.bbl) [9] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2319 strings out of 492616
- 33269 string characters out of 6129480
- 109659 words of memory out of 5000000
- 6205 multiletter control sequences out of 15000+600000
+ 2366 strings out of 492616
+ 34088 string characters out of 6129480
+ 109718 words of memory out of 5000000
+ 6244 multiletter control sequences out of 15000+600000
  9147 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,1922b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,25p,1961b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
@@ -225,10 +293,10 @@ msfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on main.pdf (7 pages, 658429 bytes).
+Output written on main.pdf (9 pages, 2459655 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
