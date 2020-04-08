@@ -19,6 +19,11 @@
 \newblock In {\em Proceedings of the 1997 ACM SIGMOD international conference
   on Management of data\/} (1997), pp.~255--264.
 
+\bibitem{jingjingslides}
+{\sc Deng, J.}
+\newblock 04. frequent patterns, association rule, correlation.
+\newblock In {\em Swansea Univerity Lecture Slides\/} (2020).
+
 \bibitem{geron2019hands}
 {\sc G{\'e}ron, A.}
 \newblock {\em Hands-On Machine Learning with Scikit-Learn, Keras, and
@@ -34,11 +39,6 @@
 {\sc Hunter, J.~D.}
 \newblock Matplotlib: A 2d graphics environment.
 \newblock {\em Computing in science \& engineering 9}, 3 (2007), 90--95.
-
-\bibitem{jingjingslides}
-{\sc jingjingslides}.
-\newblock jingjingslides slides.
-\newblock In {\em Slide titles\/} (2020).
 
 \bibitem{mckinney-proc-scipy-2010}
 {\sc McKinney, W.}

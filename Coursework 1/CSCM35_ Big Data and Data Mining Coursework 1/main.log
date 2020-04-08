@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  7 APR 2020 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  8 APR 2020 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,51 +193,51 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <totalcount.png, id=26, 640.3925pt x 498.86375pt>
 File: totalcount.png Graphic file (type png)
 <use totalcount.png>
-Package pdftex.def Info: totalcount.png  used on input line 104.
+Package pdftex.def Info: totalcount.png  used on input line 103.
 (pdftex.def)             Requested size: 320.19547pt x 249.43126pt.
 <wholelift.png, id=28, 1724.4425pt x 385.44pt>
 File: wholelift.png Graphic file (type png)
 <use wholelift.png>
-Package pdftex.def Info: wholelift.png  used on input line 108.
+Package pdftex.def Info: wholelift.png  used on input line 107.
 (pdftex.def)             Requested size: 344.88239pt x 77.08662pt.
 <wholeconf.png, id=29, 1723.43875pt x 389.455pt>
 File: wholeconf.png Graphic file (type png)
 <use wholeconf.png>
-Package pdftex.def Info: wholeconf.png  used on input line 112.
+Package pdftex.def Info: wholeconf.png  used on input line 111.
 (pdftex.def)             Requested size: 344.68164pt x 77.88962pt.
 <uklift.png, id=30, 1721.43124pt x 377.41pt>
 File: uklift.png Graphic file (type png)
 <use uklift.png>
-Package pdftex.def Info: uklift.png  used on input line 117.
+Package pdftex.def Info: uklift.png  used on input line 116.
 (pdftex.def)             Requested size: 344.28015pt x 75.48065pt.
  [6 <./totalcount.png> <./wholelift.png> <./wholeconf.png>]
 <ukconf.png, id=37, 1738.495pt x 381.425pt>
 File: ukconf.png Graphic file (type png)
 <use ukconf.png>
-Package pdftex.def Info: ukconf.png  used on input line 121.
+Package pdftex.def Info: ukconf.png  used on input line 120.
 (pdftex.def)             Requested size: 347.69284pt x 76.28365pt.
 
-Overfull \hbox (2.69284pt too wide) in paragraph at lines 121--122
+Overfull \hbox (2.69284pt too wide) in paragraph at lines 120--121
 [] 
  []
 
 <germanylift.png, id=38, 1710.39pt x 383.4325pt>
 File: germanylift.png Graphic file (type png)
 <use germanylift.png>
-Package pdftex.def Info: germanylift.png  used on input line 125.
+Package pdftex.def Info: germanylift.png  used on input line 124.
 (pdftex.def)             Requested size: 342.07195pt x 76.68513pt.
 <germanyconf.png, id=39, 1517.67pt x 368.37625pt>
 File: germanyconf.png Graphic file (type png)
 <use germanyconf.png>
-Package pdftex.def Info: germanyconf.png  used on input line 129.
+Package pdftex.def Info: germanyconf.png  used on input line 128.
 (pdftex.def)             Requested size: 303.52863pt x 73.67393pt.
 <francelift.png, id=40, 2212.265pt x 376.40625pt>
 File: francelift.png Graphic file (type png)
 <use francelift.png>
-Package pdftex.def Info: francelift.png  used on input line 133.
+Package pdftex.def Info: francelift.png  used on input line 132.
 (pdftex.def)             Requested size: 442.44516pt x 75.2799pt.
 
-Overfull \hbox (97.44516pt too wide) in paragraph at lines 133--134
+Overfull \hbox (97.44516pt too wide) in paragraph at lines 132--133
 [] 
  []
 
@@ -245,30 +245,30 @@ Overfull \hbox (97.44516pt too wide) in paragraph at lines 133--134
 <franceconf.png, id=49, 2159.06625pt x 381.425pt>
 File: franceconf.png Graphic file (type png)
 <use franceconf.png>
-Package pdftex.def Info: franceconf.png  used on input line 137.
+Package pdftex.def Info: franceconf.png  used on input line 136.
 (pdftex.def)             Requested size: 431.8056pt x 76.28365pt.
 
-Overfull \hbox (86.8056pt too wide) in paragraph at lines 137--138
+Overfull \hbox (86.8056pt too wide) in paragraph at lines 136--137
 [] 
  []
 
 <eirelift.png, id=50, 2415.0225pt x 359.3425pt>
 File: eirelift.png Graphic file (type png)
 <use eirelift.png>
-Package pdftex.def Info: eirelift.png  used on input line 141.
+Package pdftex.def Info: eirelift.png  used on input line 140.
 (pdftex.def)             Requested size: 458.85905pt x 68.27577pt.
 
-Overfull \hbox (113.85905pt too wide) in paragraph at lines 141--142
+Overfull \hbox (113.85905pt too wide) in paragraph at lines 140--141
 [] 
  []
 
 <eireconf.png, id=51, 2424.05624pt x 396.48125pt>
 File: eireconf.png Graphic file (type png)
 <use eireconf.png>
-Package pdftex.def Info: eireconf.png  used on input line 145.
+Package pdftex.def Info: eireconf.png  used on input line 144.
 (pdftex.def)             Requested size: 460.57549pt x 75.33221pt.
 
-Overfull \hbox (115.57549pt too wide) in paragraph at lines 145--146
+Overfull \hbox (115.57549pt too wide) in paragraph at lines 144--145
 [] 
  []
 
@@ -293,7 +293,7 @@ msfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on main.pdf (9 pages, 2459655 bytes).
+Output written on main.pdf (9 pages, 2459570 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
