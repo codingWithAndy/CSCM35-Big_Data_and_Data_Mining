@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}
+
+\bibitem{tensorflow2015-whitepaper}
+{\sc Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C.,
+  Corrado, G.~S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I.,
+  Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur,
+  M., Levenberg, J., Man\'{e}, D., Monga, R., Moore, S., Murray, D., Olah, C.,
+  Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P.,
+  Vanhoucke, V., Vasudevan, V., Vi\'{e}gas, F., Vinyals, O., Warden, P.,
+  Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X.}
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems,
+  2015.
+\newblock Software available from tensorflow.org.
+
+\bibitem{opencv_library}
+{\sc Bradski, G.}
+\newblock {The OpenCV Library}.
+\newblock {\em Dr. Dobb's Journal of Software Tools\/} (2000).
+
+\bibitem{sklearn_api}
+{\sc Buitinck, L., Louppe, G., Blondel, M., Pedregosa, F., Mueller, A., Grisel,
+  O., Niculae, V., Prettenhofer, P., Gramfort, A., Grobler, J., Layton, R.,
+  VanderPlas, J., Joly, A., Holt, B., and Varoquaux, G.}
+\newblock {API} design for machine learning software: experiences from the
+  scikit-learn project.
+\newblock In {\em ECML PKDD Workshop: Languages for Data Mining and Machine
+  Learning\/} (2013), pp.~108--122.
+
+\bibitem{hunter2007matplotlib}
+{\sc Hunter, J.~D.}
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in science \& engineering 9}, 3 (2007), 90--95.
+
+\bibitem{krizhevsky2012imagenet}
+{\sc Krizhevsky, A., Sutskever, I., and Hinton, G.~E.}
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems\/} (2012),
+  pp.~1097--1105.
+
+\bibitem{lecun2015deep}
+{\sc LeCun, Y., Bengio, Y., and Hinton, G.}
+\newblock Deep learning.
+\newblock {\em nature 521}, 7553 (2015), 436--444.
+
+\bibitem{lecun1989backpropagation}
+{\sc LeCun, Y., Boser, B., Denker, J.~S., Henderson, D., Howard, R.~E.,
+  Hubbard, W., and Jackel, L.~D.}
+\newblock Backpropagation applied to handwritten zip code recognition.
+\newblock {\em Neural computation 1}, 4 (1989), 541--551.
+
+\bibitem{lecun1998gradient}
+{\sc LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P.}
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE 86}, 11 (1998), 2278--2324.
+
+\bibitem{lecun1989generalization}
+{\sc LeCun, Y., et~al.}
+\newblock Generalization and network design strategies.
+\newblock {\em Connectionism in perspective 19\/} (1989), 143--155.
+
+\bibitem{Python}
+{\sc {Python Core Team}}.
+\newblock {\em Python: A dynamic, open source programming language}.
+\newblock Python Software Foundation, Vienna, Austria, 2020.
+
+\bibitem{rumelhart1985learning}
+{\sc Rumelhart, D.~E., Hinton, G.~E., and Williams, R.~J.}
+\newblock Learning internal representations by error propagation.
+\newblock Tech. rep., California Univ San Diego La Jolla Inst for Cognitive
+  Science, 1985.
+
+\bibitem{van2014scikit}
+{\sc Van~der Walt, S., Sch{\"o}nberger, J.~L., Nunez-Iglesias, J., Boulogne,
+  F., Warner, J.~D., Yager, N., Gouillart, E., and Yu, T.}
+\newblock scikit-image: image processing in python.
+\newblock {\em PeerJ 2\/} (2014), e453.
+
+\bibitem{walt2011numpy}
+{\sc Walt, S. v.~d., Colbert, S.~C., and Varoquaux, G.}
+\newblock The numpy array: a structure for efficient numerical computation.
+\newblock {\em Computing in Science \& Engineering 13}, 2 (2011), 22--30.
+
+\end{thebibliography}
