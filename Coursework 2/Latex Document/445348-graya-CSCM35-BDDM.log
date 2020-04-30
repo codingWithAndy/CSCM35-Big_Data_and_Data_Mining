@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.5)  29 APR 2020 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.5)  30 APR 2020 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -155,7 +155,11 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen112
 \titlewidthfirst=\dimen113
 )
-(./445348-graya-CSCM35-BDDM.aux)
+(./445348-graya-CSCM35-BDDM.aux
+
+LaTeX Warning: Label `confusion_matrix' multiply defined.
+
+)
 \openout1 = `445348-graya-CSCM35-BDDM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -170,8 +174,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count94
 \scratchdimen=\dimen114
@@ -254,28 +257,106 @@ ea.png>]
 
 LaTeX Warning: Citation `worldmeter' on page 1 undefined on input line 58.
 
+
+LaTeX Warning: Citation `twarc' on page 1 undefined on input line 67.
+
+
+Overfull \hbox (25.13974pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/10 "full[]text", "source", "trun-cated", "in[]reply[]to[]status[]i
+d", "in[]reply[]to[]status[]id[]str",
+ []
+
+
+Overfull \hbox (9.91185pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/10 "in[]reply[]to[]user[]id", "in[]reply[]to[]user[]id[]str", "in[
+]reply[]to[]screen[]name", "user",
+ []
+
+
+Overfull \hbox (23.3119pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/10 "co-or-di-nates", "place", "quoted[]status[]id", "quoted[]statu
+s[]id[]str", "is[]quote[]status",
+ []
+
+
+Overfull \hbox (20.8618pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/10 "quoted[]status", "retweeted[]status", "quote[]count", "re-ply[
+]count", "retweet[]count",
+ []
+
+
+Overfull \hbox (0.50623pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/10 "fa-vorite[]count", "en-ti-ties", "ex-tended[]entities", "fa-vo
+r-ited", "retweeted", "pos-
+ []
+
+
+Overfull \hbox (10.56741pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/10 "scopes", "with-held[]copyright", "with-held[]in[]countries", "
+with-held[]scope", "geo",
+ []
+
 [1]
 
-LaTeX Warning: Citation `towarddatasciencesentiment' on page 2 undefined on inp
-ut line 89.
+LaTeX Warning: Citation `nltk' on page 2 undefined on input line 82.
+
+[2]
+
+LaTeX Warning: Citation `nltkfreqdist' on page 3 undefined on input line 94.
 
 
-LaTeX Warning: Citation `towarddatasciencesentiment' on page 2 undefined on inp
-ut line 91.
+LaTeX Warning: Citation `intro2datamining book' on page 3 undefined on input li
+ne 97.
 
-[2] (./445348-graya-CSCM35-BDDM.bbl) [3] (./445348-graya-CSCM35-BDDM.aux)
+
+LaTeX Warning: Citation `jjslidesNLP' on page 3 undefined on input line 97.
+
+
+LaTeX Warning: Citation `jjslideNLP' on page 3 undefined on input line 97.
+
+
+LaTeX Warning: Citation `towarddatasciencesentiment' on page 3 undefined on inp
+ut line 97.
+
+
+LaTeX Warning: Citation `towarddatasciencesentiment' on page 3 undefined on inp
+ut line 99.
+
+<allresults.png, id=19, 401.5pt x 266.9975pt>
+File: allresults.png Graphic file (type png)
+<use allresults.png>
+Package pdftex.def Info: allresults.png  used on input line 119.
+(pdftex.def)             Requested size: 227.62204pt x 151.37126pt.
+[3]
+<eachmonth2.png, id=23, 755.82375pt x 533.995pt>
+File: eachmonth2.png Graphic file (type png)
+<use eachmonth2.png>
+Package pdftex.def Info: eachmonth2.png  used on input line 128.
+(pdftex.def)             Requested size: 341.43306pt x 241.22441pt.
+
+
+LaTeX Warning: Reference `jan_feb' on page 4 undefined on input line 150.
+
+[4 <./allresults.png> <./eachmonth2.png>]
+
+LaTeX Warning: Reference `march' on page 5 undefined on input line 152.
+
+[5] (./445348-graya-CSCM35-BDDM.bbl) [6] (./445348-graya-CSCM35-BDDM.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 2845 strings out of 492616
- 40277 string characters out of 6129481
- 117078 words of memory out of 5000000
- 6711 multiletter control sequences out of 15000+600000
+ 2856 strings out of 492616
+ 40445 string characters out of 6129481
+ 119125 words of memory out of 5000000
+ 6720 multiletter control sequences out of 15000+600000
  8855 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,45p,658b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,45p,1518b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -283,10 +364,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on 445348-graya-CSCM35-BDDM.pdf (4 pages, 151791 bytes).
+Output written on 445348-graya-CSCM35-BDDM.pdf (7 pages, 498686 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

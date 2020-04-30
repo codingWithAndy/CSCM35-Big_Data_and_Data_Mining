@@ -14,15 +14,15 @@
 
 
 
-\parskip .8ex
+\parskip 1ex
 
 %\setlength{\droptitle}{-10em}
-\setlength{\topmargin}{-0.5in} % was -1
+%\setlength{\topmargin}{-0.2in} % was -1
 
 \usepackage{fancyheadings}
 \usepackage{ifthen}
 \usepackage{titlesec}
-\setlength{\textheight}{9.5in} %was 10.2
+%\setlength{\textheight}{9in} %was 10.2
 
 %Begining of the document
 \begin{document}
@@ -59,69 +59,75 @@ With the COVID-19 first declaring over 800 cases on the 23rd of January 2020, an
 
 We will first achieve this by using Twitters API to gain all the tweets that have been tweeted, over this time, using the hashtag 'coronavirus'. We will then complete a sentiment analysis on the data, to gain an overall view of the general feel of the 'coronavirus' tweets. Gaining the sentiment value will allow us to have insights into the public view, and if these tweets are positive, neutral or negative and how they change as the pandemic plays out over time. 
 
-[Overview of the results here]
+The sentiment analysis showed that at the beginning of the declaration of the pandemic, Twitter's tweets had a slight positive sentiment at the beginning, then quickly declined into a negative sentiment. March had a very positive start to the month, then had a massive drop to negative figures in the middle of the month to return positive to then return slightly in the negative numbers at the end of the month. While April 
 
-[Overview of what to expect in the document]
+The report will first explain our proposed solution. Explaining how we aim to get the tweets from Twitter, and then put the contents into a CSV file. We then will explain how we intend to use the Natural Language Toolkit (NLTK) to train our classification models. We will then explain how we intend to provide the classifiers with the extracted tweets and gain a sentiment score based on the content of the tweets. We will then explain the packages used and describe the dataset and any preprocessing techniques we used. We will then explain the results which are then followed by a discussion on the results and a conclusion.
 
 \section{Proposed Solution}
-We will be using twarc, a Python library for archiving Twitter JSON data. The library accesses the Twitter API to extract a JSON object as Twitter stores tweets as line-oriented JSON. The twarc library handles the Twitters's API, as well, as its rate limits. This library also allows us to use hydrate tweet ids. It is collecting the relevant tweet's details that match the criteria of having hashtags of 'coronavirus', 'virus', 'covid'.
+We will be using twarc, a Python library for archiving Twitter JSON data. The library accesses the Twitter API to extract a JSON object as Twitter stores tweets as line-oriented JSON. The twarc library handles the Twitters's API, as well as its rate limits. This library also allows us to use hydrate tweet ids. It is collecting the relevant tweet's details that match the criteria of having hashtags of 'coronavirus' \cite{twarc}.
 
-We will then use another python library called hydrate. Hydrate [explain it]. Once the tweets get collected for all of the Tweet IDs, we will then convert the JSON data into a CSV file. We will then do sentiment analysis on the tweets to gauge the over feel of these tweets. To see if they are all negative, neutral or if they overall a positive vibe over each day.
+We will then use another python library called hydrate. Hydrate allows us to be able to take the Tweet ID's that we have taken off twitter, by using Twarc and get the contents of the actual tweet. Hydrate will provide us back with the content of the tweet, along with other potentially crucial information. These different parts of the tweets information we get are "created\_at", "id", "id\_str", "full\_text", "source", "truncated", "in\_reply\_to\_status\_id", "in\_reply\_to\_status\_id\_str", "in\_reply\_to\_user\_id", "in\_reply\_to\_user\_id\_str", "in\_reply\_to\_screen\_name", "user", "coordinates", "place", "quoted\_status\_id", "quoted\_status\_id\_str", "is\_quote\_status", "quoted\_status", "retweeted\_status", "quote\_count", "reply\_count", "retweet\_count", "favorite\_count", "entities", "extended\_entities", "favorited", "retweeted", "possibly\_sensitive", "filter\_level", "lang", "matching\_rules", "current\_user\_retweet", "scopes", "withheld\_copyright", "withheld\_in\_countries", "withheld\_scope", "geo", "contributors", "display\_text\_range", "quoted\_status\_permalink". We only need for this sentiment analysis the values "created\_at" and "full\_text". Once the tweets get collected for all of the Tweet IDs, we will then convert the JSON data into a CSV file. We will then do sentiment analysis on the tweets to gauge the over feel of these tweets. To see if they are all negative or if they overall a positive vibe over each day.
 
-[Need to explain the stages after this as this is where I am in the practicle]
+We will then use NLTK to create a sentiment analysis on the tweets text body. However, before we could do this, we needed to use several packages to get a trained model, to provide us with the likelihood of the tweet being positive or negative. To classify the tweet, we used SKLearn's Naive Bayes MultinomialNB and BernoulliNB, Linear Model's LogisticRegression, SGDClassifier and SVM's SVC, LinearSVC, NuSVC.
 
-We will then use NLTK to create a sentiment analysis on the tweets text body. [Explain what we did in stages]
+We then create a sentiment function, which takes in a parameter of text. This function will find the features of the parameter and then return the classification of the tweet if it was positive or negative, and the confidence level of that tweet with its analysis. The value we pass the function is the tweets 'full\_text' value. The classification and confidence level gets outputted as a .txt file.
 
-We will then use the ARIMA algorithm to predict where we think the general mood about the COVID-19 on twitter is heading, more into a negative direction, or is it neutral or moving into a positive direction.
+%[Do I use a stage to tidy up the data as there is so much? -> If so explain here]
 
+To visualise the data, we use Matplotlib and the outputted .txt to populate the graph. We are displaying the sentiment values of the tweets, allowing us to see the trend in the tweets sentiment analysis. 
 
 
 \subsection{Packages}
 %Need to update.
-We will be using the programming language Python 3 \cite{Python}, as this allows us to use all the required additional packages needed. The additional packages we will be using are NumPy \cite{walt2011numpy}, OpenCV \cite{opencv_library}, Pptk, Matplotlib \cite{hunter2007matplotlib}, SKImages \cite{van2014scikit}, SKLearn \cite{sklearn_api} and Tensorflow version 2 \cite{tensorflow2015-whitepaper}.
+We used Python 3 \cite{Python} as our programming language as it allowed us to use the required libraries and additional pages we needed. One of the main libraries was NLTK, a leading platform for building programs to work with human language \cite{nltk}. SKLearn \cite{sklearn_api} for its Naive Bayes, linear model and SVM libraries. Along with Statistics for its mode library. Altair and Matplotlib were used to visualise the data.
 
-\subsection{Dataset}
+
+%We will be using the programming language Python 3 \cite{Python}, as this allows us to use all the required additional packages needed. The additional packages we will be using are NumPy \cite{walt2011numpy}, OpenCV \cite{opencv_library}, Pptk, Matplotlib \cite{hunter2007matplotlib}, SKImages \cite{van2014scikit}, SKLearn \cite{sklearn_api} and Tensorflow version 2 \cite{tensorflow2015-whitepaper}.
+
+\subsection{Dataset and Preprocessing}
 The presented dataset provided, which is maintained by Johns Hopkins CSSE, consists of [decsribe data here]. The data had many missing values, which correlate to the country not having any COVID-19 cases, so these features got filled in with zeros.
 
-With using Twarc, we were able to gain 15million tweets.
+With using Twarc, we were able to gain 23.462 million tweets. Twarc was able to pull 1.857 million tweets between 22/01/20 to 28/02/20, 9.367 million between 01/03/20 to 31/03/20 and 12.238 million unique tweets between 01/04/20 to 25/04/20.
+
+Through using Twarc and Hydrate, we had to drop features from the table that were not required. The required features we needed were 'created\_at' and 'full\_text'.
+
+In order to train our sentiment analysis models, we used a sample .txt file that contained positive text, and another .txt file that contained negative text. Along with NLTK's class FreqDist, we were able to encode the frequency distributions. The frequency distribution counts the number of times an experiment has that outcome occur \cite{nltkfreqdist}.
 
 \subsection{Sentiment Analysis}
-Sentiment analysis is a type of data mining. It aims to measure what the inclination of people's opinions is, through using natural language processing (NLP). NLP is a computational linguistics and text analysis. It gets used to extract and analyse information from the Web, which is mostly social media and other similar sources. The analysed data quantifies the general public's sentiments or reactions toward certain situations, products, people or ideas and reveal the contextual polarity of the information. Sentiment analysis is also known as opinion mining \cite{towarddatasciencesentiment}.
+Sentiment analysis is a type of data mining. Sentiment analysis is a form of semi-supervised learning \cite{intro2datamining book} which uses classification, a text-based classification approach \cite{jjslidesNLP}. It aims to measure what the inclination of people's opinions is, through using natural language processing (NLP). It can also get referred to as Society text data mining \cite{jjslideNLP}. NLP is a computational linguistics and text analysis. It gets used to extract and analyse information from the Web, which is mostly social media and other similar sources. The analysed data quantifies the general public's sentiments or reactions toward certain situations, products, people or ideas and reveal the contextual polarity of the information. Sentiment analysis is also known as opinion mining \cite{towarddatasciencesentiment}.
 
-Sentiment analysis can fall into two categories, pure statistics or a mix of statistics and linguistics \cite{towarddatasciencesentiment}. Pure statistics use algorithms like the Bag of Words (BOW). This kind of algorithms filters the text down to only the words that the algorithm believes to have sentiment, taking into account no context to the sentence at all. Such models do not aim to understand the language, only analyse the statistical measures to classify the text. [Will I use this approach?] 
+Sentiment analysis can fall into two categories, pure statistics or a mix of statistics and linguistics \cite{towarddatasciencesentiment}. Pure statistics use algorithms like the Bag of Words (BOW). This kind of algorithms filters the text down to only the words that the algorithm believes to have sentiment, taking into account no context to the sentence at all. Such models do not aim to understand the language, only analyse the statistical measures to classify the text. 
 
 The mix of statistics and linguistics approach uses an array of Natural Language Processing (NLP) techniques, along with statistics to allow the machine to understand the language truly. The algorithms achieve this by incorporating languages grammar principles into analyst of the text. 
 
 There are broadly two main outputs to sentiment analysis. One type of sentiment analysis output gets referred to as Categorical/Polarity. What this means is that the text will get classed as either positive, negative or neutral overall. While the other is Scalar/Degree. What this means is that a score is given based on a predefined scale, that ranges from highly positive to highly negative. This type of sentiment analysis output has been used on tweets to see the views on various USA election candidates.
 
-\subsubsection{NLTK}
-% This is part of the sentiment analysis??
-
-
-\subsubsection{ARIMA}
-% Explain this algorithm?
-
-
-\subsection{Analysis Tools}
-% This section might not be needed. Just add into packages used. ?? Maybe?
-
-%\subsection{Visual and Statistical Analysis}
+%For this experiment, we will use the purely statistical approach to gauge if a tweet that we gather off twitter is positive or negative.
 
 \section{Results}
 
 %\begin{figure}[t]
 %	\label{confusion_matrix}
 %	\small
-%	\includegraphics[width=8cm]{confusion_matrix.png}
+%	\includegraphics[width=8cm]{results.png}
 %	\\Fig \ref{confusion_matrix}: This is the confusion matrix from the 3x3 and 6x6 filter training.
 %	\centering
 %\end{figure}
 
-%\begin{center}
-%	\label{confusion_matrix}
-%	\includegraphics[width=8cm]{confusion_matrix.png}
-%\end{center}
+\begin{center}
+	\label{confusion_matrix}
+	\includegraphics[width=8cm]{allresults.png}
+	\centering
+	 \\Fig: These graphs show the sentiment analysis for January 23rd to April 25th. 
+\end{center}
 
+The results show that a negative trend has been happening since the 23rd of January. Although the overall values have been going in a negative direction, there has been occurrences where the overall tone has been more positive. However, not enough to take the value back over zero and into the positive figures. The highest gaining ~2 which the lowest value being ~-15.5.
+
+\begin{center}
+	\label{confusion_matrix}
+	\includegraphics[width=12cm]{eachmonth2.png}
+	Fig:  These show each months sentiment analysis individually.
+\end{center}
 
 %\begin{center}
 %	\begin{tabular}{ |c|p{1.5cm}|p{2.25cm}|p{2.25cm}|p{2.25cm}| } 
@@ -141,9 +147,19 @@ There are broadly two main outputs to sentiment analysis. One type of sentiment 
 %	\end{tabular}
 %\end{center}
 
+As we can see from January to February \ref{jan_feb} tweet sentiment analysis table, the values start to go in a positive direction but quickly move down into a negative position. With the occasional spike in the tweets positivity, however, not enough to stop the downward trend, ending the month on a value lower than ~-65. 
+
+On the other hand, March \ref{march} had much more of an up and down result. In terms of the moods over the month, it went from extreme positive at the beginning to a sharp decline, to then return positive to go back slightly negative at the end of the month. The highest positive value was ~15, while the lowest value was ~-12. It was showing that the month overall had more positive tweets than negative.
+
+April's analysis shows that the month started in a negative place, but had a positive peak early on, to continue the downward trend then. With the highest positive value being ~1.5 while the lowest value being ~-15.5.
 
 \section{Discussion}
 
+Understandably, January and February had a negative trajectory as this was the moment in time that the WHO was declaring the pandemic. Which naturally causes fear and confusion about what is in store for us with this virus. However, March started on a very positive trend, but that quickly started to go on a negative trajectory. It would be interesting to see what correlations can be made to what caused the positive start, could this be linked to the positive news coming out about people recovering and surviving? It is also interesting to see the steep negative trajectory as well, could this be linked to when most of the western worlds went into lockdown, as we have gained mainly English speaking nations tweets, who went into lockdown around the 23rd of March.
+
+With the proposed solution only looking at words, a pandemic like we are currently in would have a lot of negative words get used which could result in the tweet getting seen as negative. However, if the context of the tweet gets taken into full account then the tweet itself might not be negative, just containing many words, that on their own and taken out of context, could be perceived as negative.
+
+In regards to the sentiment analysis checking the tweets that contain the hashtag 'coronavirus', it does provide a limited scope. It would be good to be able to compare the results against other hashtags of a similar nature. For example, on the hashtags 'COVID-19', 'virus', [list more]. Have these hashtags overall had more of positive sentiment or even been used more due to the smaller size in word count?
 
 \section{Conclusion}
 
