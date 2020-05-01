@@ -1,46 +1,58 @@
 This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: 445348-graya-CSCM35-BDDM.aux
+White space in argument---line 13 of file 445348-graya-CSCM35-BDDM.aux
+ : \citation{intro2datamining
+ :                            book}
+I'm skipping whatever remains of this command
 The style file: acm.bst
 Database file #1: samples.bib
-You've used 13 entries,
+Warning--I didn't find a database entry for "worldmeter"
+Warning--I didn't find a database entry for "twarc"
+Warning--I didn't find a database entry for "nltk"
+Warning--I didn't find a database entry for "nltkfreqdist"
+Warning--I didn't find a database entry for "jjslidesNLP"
+Warning--I didn't find a database entry for "jjslideNLP"
+Warning--I didn't find a database entry for "towarddatasciencesentiment"
+You've used 2 entries,
             2253 wiz_defined-function locations,
-            877 strings with 12578 characters,
-and the built_in function-call counts, 6123 in all, are:
-= -- 545
-> -- 481
+            812 strings with 10018 characters,
+and the built_in function-call counts, 1077 in all, are:
+= -- 93
+> -- 84
 < -- 0
-+ -- 196
-- -- 182
-* -- 566
-:= -- 1051
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 129
++ -- 34
+- -- 32
+* -- 92
+:= -- 183
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 149
-empty$ -- 349
-format.name$ -- 182
-if$ -- 1186
+cite$ -- 2
+duplicate$ -- 34
+empty$ -- 62
+format.name$ -- 32
+if$ -- 213
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 10
-newline$ -- 68
-num.names$ -- 26
-pop$ -- 126
+int.to.str$ -- 2
+missing$ -- 1
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 26
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 20
 quote$ -- 0
-skip$ -- 99
+skip$ -- 24
 stack$ -- 0
-substring$ -- 294
-swap$ -- 44
+substring$ -- 42
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 8
 warning$ -- 0
-while$ -- 45
-width$ -- 15
-write$ -- 133
+while$ -- 7
+width$ -- 3
+write$ -- 23
+(There was 1 error message)

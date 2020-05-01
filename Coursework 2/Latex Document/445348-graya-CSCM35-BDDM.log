@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.5)  30 APR 2020 21:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  1 MAY 2020 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,10 +350,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2856 strings out of 492616
- 40445 string characters out of 6129481
- 119125 words of memory out of 5000000
- 6720 multiletter control sequences out of 15000+600000
+ 2844 strings out of 492616
+ 40210 string characters out of 6129480
+ 119077 words of memory out of 5000000
+ 6708 multiletter control sequences out of 15000+600000
  8855 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,45p,1518b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -364,7 +364,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on 445348-graya-CSCM35-BDDM.pdf (7 pages, 498686 bytes).
+Output written on 445348-graya-CSCM35-BDDM.pdf (7 pages, 485795 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
