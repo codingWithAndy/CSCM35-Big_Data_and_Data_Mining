@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  7 MAY 2020 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  7 MAY 2020 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -239,96 +239,62 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 44.
+(Font)              <12> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 44.
+(Font)              <6> on input line 34.
 <swansea.png, id=1, 416.2752pt x 284.7438pt>
 File: swansea.png Graphic file (type png)
 <use swansea.png>
-Package pdftex.def Info: swansea.png  used on input line 46.
+Package pdftex.def Info: swansea.png  used on input line 36.
 (pdftex.def)             Requested size: 256.0748pt x 175.1707pt.
 
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./swans
-ea.png>]
-
-LaTeX Warning: Citation `worldmeter' on page 1 undefined on input line 58.
-
-
-LaTeX Warning: Citation `twarc' on page 1 undefined on input line 67.
-
-[1]
-
-LaTeX Warning: Citation `python' on page 2 undefined on input line 82.
-
-
-LaTeX Warning: Citation `nltk' on page 2 undefined on input line 82.
-
-[2]
-
-LaTeX Warning: Citation `nltkfreqdist' on page 3 undefined on input line 96.
-
-
-LaTeX Warning: Citation `intro2datamining book' on page 3 undefined on input li
-ne 99.
-
-
-LaTeX Warning: Citation `jjslidesNLP' on page 3 undefined on input line 99.
-
-
-LaTeX Warning: Citation `jjslideNLP' on page 3 undefined on input line 99.
-
-
-LaTeX Warning: Citation `towarddatasciencesentiment' on page 3 undefined on inp
-ut line 99.
-
-
-LaTeX Warning: Citation `towarddatasciencesentiment' on page 3 undefined on inp
-ut line 101.
-
-<allresults2.png, id=19, 385.44pt x 270.00874pt>
+ea.png>] [1] [2]
+<allresults2.png, id=18, 385.44pt x 270.00874pt>
 File: allresults2.png Graphic file (type png)
 <use allresults2.png>
-Package pdftex.def Info: allresults2.png  used on input line 123.
+Package pdftex.def Info: allresults2.png  used on input line 113.
 (pdftex.def)             Requested size: 227.62204pt x 159.45209pt.
-[3]
-<eachmonth3.png, id=23, 785.93625pt x 555.07375pt>
+ [3]
+<eachmonth3.png, id=22, 785.93625pt x 555.07375pt>
 File: eachmonth3.png Graphic file (type png)
 <use eachmonth3.png>
-Package pdftex.def Info: eachmonth3.png  used on input line 131.
+Package pdftex.def Info: eachmonth3.png  used on input line 122.
 (pdftex.def)             Requested size: 341.43306pt x 241.14174pt.
  [4 <./allresults2.png> <./eachmonth3.png>] [5] [6]
 (./445348-graya-CSCM35-BDDM.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+Underfull \hbox (badness 7047) in paragraph at lines 41--45
+[]\OT1/cmr/m/sc/8 Munir, S.  \OT1/cmr/m/n/8 Ba-sic sen-ti-ment anal-y-sis us-in
+g nltk.  Re-trieved April 29,
+ []
 
 ) [7] (./445348-graya-CSCM35-BDDM.aux)
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2836 strings out of 492616
- 40138 string characters out of 6129480
- 117069 words of memory out of 5000000
- 6702 multiletter control sequences out of 15000+600000
- 8202 words of font info for 29 fonts, out of 8000000 for 9000
+ 2851 strings out of 492616
+ 40343 string characters out of 6129480
+ 117120 words of memory out of 5000000
+ 6716 multiletter control sequences out of 15000+600000
+ 8547 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,45p,911b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on 445348-graya-CSCM35-BDDM.pdf (8 pages, 579995 bytes).
+ 41i,6n,45p,939b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on 445348-graya-CSCM35-BDDM.pdf (8 pages, 624859 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: 445348-graya-CSCM35-BDDM.aux
+The style file: acm.bst
+Database file #1: samples.bib
+Warning--empty booktitle in jhmcdata
+Warning--empty booktitle in towarddatasciencesentiment
+Warning--empty booktitle in twarc
+Warning--empty booktitle in worldmeter
+You've used 12 entries,
+            2253 wiz_defined-function locations,
+            850 strings with 11223 characters,
+and the built_in function-call counts, 3149 in all, are:
+= -- 271
+> -- 139
+< -- 0
++ -- 58
+- -- 46
+* -- 198
+:= -- 535
+add.period$ -- 36
+call.type$ -- 12
+change.case$ -- 56
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 158
+empty$ -- 294
+format.name$ -- 46
+if$ -- 645
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 13
+newline$ -- 63
+num.names$ -- 24
+pop$ -- 101
+preamble$ -- 1
+purify$ -- 47
+quote$ -- 0
+skip$ -- 61
+stack$ -- 0
+substring$ -- 91
+swap$ -- 21
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 4
+while$ -- 27
+width$ -- 14
+write$ -- 116
+(There were 4 warnings)

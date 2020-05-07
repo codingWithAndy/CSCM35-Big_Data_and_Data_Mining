@@ -1,0 +1,74 @@
+\begin{thebibliography}{10}
+
+\bibitem{jingjingslidesNLP}
+{\sc Deng, J.}
+\newblock 09. nlp, word2vec.
+\newblock In {\em Swansea Univerity Lecture Slides\/} (2020).
+
+\bibitem{geron2019hands}
+{\sc G{\'e}ron, A.}
+\newblock {\em Hands-On Machine Learning with Scikit-Learn, Keras, and
+  TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems}.
+\newblock O'Reilly Media, 2019.
+
+\bibitem{hunter2007matplotlib}
+{\sc Hunter, J.~D.}
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in science \& engineering 9}, 3 (2007), 90--95.
+
+\bibitem{jhmcdata}
+{\sc {Johns Hopkins University and Medicine}}.
+\newblock Coronavirus resource centre.
+\newblock Retrieved April 27, 2020 from: https://coronavirus.jhu.edu/map.html.
+
+\bibitem{nltkfreqdist}
+{\sc Loper, E., and Bird, S.}
+\newblock Nltk: Frequent distribution.
+\newblock In {\em In Proceedings of the ACL Workshop on Effective Tools and
+  Methodologies for Teaching Natural Language Processing and Computational
+  Linguistics. Philadelphia: Association for Computational Linguistics\/}
+  (2002).
+
+\bibitem{nltk}
+{\sc Loper, E., and Bird, S.}
+\newblock Nltk: The natural language toolkit.
+\newblock In {\em In Proceedings of the ACL Workshop on Effective Tools and
+  Methodologies for Teaching Natural Language Processing and Computational
+  Linguistics. Philadelphia: Association for Computational Linguistics\/}
+  (2002).
+
+\bibitem{towarddatasciencesentiment}
+{\sc Munir, S.}
+\newblock Basic sentiment analysis using nltk.
+\newblock Retrieved April 29, 2020 from:
+  https://towardsdatascience.com/basic-binary-sentiment-analysis-using-nltk-c94ba17ae386.
+
+\bibitem{Python}
+{\sc {Python Core Team}}.
+\newblock {\em Python: A dynamic, open source programming language}.
+\newblock Python Software Foundation, Vienna, Austria, 2020.
+
+\bibitem{tan2016introduction}
+{\sc Tan, P.-N., Steinbach, M., and Kumar, V.}
+\newblock {\em Introduction to data mining}.
+\newblock Pearson Education India, 2016.
+
+\bibitem{twarc}
+{\sc {University of Virginia}}.
+\newblock Introductory lesson on twarc for twitter data collection.
+\newblock Retrieved April 30, 2020 from:
+  http://digitalcollecting.lib.virginia.edu/toolkit/docs/social-media/collect-tweets/.
+
+\bibitem{van2014scikit}
+{\sc Van~der Walt, S., Sch{\"o}nberger, J.~L., Nunez-Iglesias, J., Boulogne,
+  F., Warner, J.~D., Yager, N., Gouillart, E., and Yu, T.}
+\newblock scikit-image: image processing in python.
+\newblock {\em PeerJ 2\/} (2014), e453.
+
+\bibitem{worldmeter}
+{\sc worldometer}.
+\newblock Covid-19 coronavirus pandemic.
+\newblock Retrieved April 29, 2020 from:
+  https://www.worldometers.info/coronavirus/.
+
+\end{thebibliography}
