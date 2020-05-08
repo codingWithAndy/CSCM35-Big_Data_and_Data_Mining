@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  7 MAY 2020 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  8 MAY 2020 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -260,6 +260,10 @@ File: allresults2.png Graphic file (type png)
 Package pdftex.def Info: allresults2.png  used on input line 113.
 (pdftex.def)             Requested size: 227.62204pt x 159.45209pt.
  [3]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 118.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 118.
 <eachmonth3.png, id=22, 785.93625pt x 555.07375pt>
 File: eachmonth3.png Graphic file (type png)
 <use eachmonth3.png>
@@ -278,10 +282,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2851 strings out of 492616
- 40343 string characters out of 6129480
+ 2853 strings out of 492616
+ 40371 string characters out of 6129480
  117120 words of memory out of 5000000
- 6716 multiletter control sequences out of 15000+600000
+ 6718 multiletter control sequences out of 15000+600000
  8547 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,45p,939b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -290,11 +294,12 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on 445348-graya-CSCM35-BDDM.pdf (8 pages, 624859 bytes).
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on 445348-graya-CSCM35-BDDM.pdf (8 pages, 632121 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
